@@ -386,12 +386,12 @@ function MouseSelector() {
 	
 	this.select = function (params) {
 		
-        var _x1 = params.x1;
-        var _y1 = params.y1;
-        var _x2 = params.x2;
-        var _y2 = params.y2;
-        
-        var elements = elementManager.getElements();
+	    var _x1 = params.x1;
+	    var _y1 = params.y1;
+	    var _x2 = params.x2;
+	    var _y2 = params.y2;
+	        
+	    var elements = elementManager.getElements();
 		
 	    for (var id in elements) {
 	        if (!elements.hasOwnProperty(id)) {
@@ -421,7 +421,7 @@ function MouseSelector() {
 	};
 	
 	this.isActive = function() {
-		return active;
+            return active;
 	}
 	
 };
